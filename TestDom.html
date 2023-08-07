@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DomTest</title>
+  <style>
+    .subscribe {
+      background-color: black;
+      color: white;
+      border-radius: 1px;
+    }
+
+    .is-subscribed {
+      background-color: grey;
+      color: black;
+    }
+
+    .redoo {
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+    }
+
+    .bie {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Youtube Subscribe Button</h1>
+  <div class="redoo">
+    <button class="js-buttonSubscribe subscribe" onclick="subscribe();">Subscribe</button>
+  </div>
+
+
+  <script>
+    function subscribe(){
+      const page = document.querySelector('.redoo');
+      const buttonS = document.querySelector('.js-buttonSubscribe');
+
+      if (page.innerHTML === ''){
+        buttonS.innerHTML = 'Subscribed';
+        buttonS.classList.add
+        ('is-subscribed');
+      }
+
+      else {
+        buttonS.innerHTML = 'Subscribe';
+        buttonS.classList.remove
+        ('is-subscribed');
+        page
+        .innerHTML = `<div class="redoo">
+          <button class="js-buttonSubscribe subscribe" onclick="subscribe();">Subscribe</button>
+          </div>`;
+          page
+          .classList.add('bie');
+          page
+          .classList.remove('redoo');
+      }
+
+      console.log(page.innerHTML);
+        
+    }
+
+    console.log(1 + '1' + '1');
+
+  </script>
+</body>
+</html>
