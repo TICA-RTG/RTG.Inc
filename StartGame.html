@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPSGame</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="rules.css">
+  <script src="game.js"></script>
+</head>
+<body>
+    <div class="header">
+      <div class="game-title">
+        <img class="logo" src="Images/logo.svg">
+      </div>
+      <div class="score-board">
+        <p class="score">SCORE</p>
+        <p class="score-count">12</p>
+      </div>
+    </div>
+
+  <div class="middle">
+    <div class="js-main">
+    <div class="main-top">
+      <div class="one">
+        <button class="game-button">
+        <img class="pick-paper" src="Images/icon-paper.svg" onclick="playGame('paper');">
+      </button>
+      </div>
+      <div class="two">
+        <button class="game-button">
+        <img class="pick-scissors" src="Images/icon-scissors.svg" onclick="playGame('scissors');">
+      </button>
+      </div>
+    </div>
+    <div class="main-bottom">
+      <button class="game-button">
+      <img class="pick-rock" src="Images/icon-rock.svg" onclick="playGame('rock');">
+    </button>
+    </div>
+    <img class="connector" src="Images/bg-triangle.svg">
+  </div>
+  </div>
+
+  <div class="down">
+    <button class="rules" onclick="ruler();">RULES</button>
+  </div>
+</body>
+</html>

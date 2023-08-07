@@ -1,0 +1,32 @@
+.down {
+  margin-top: 50px;
+  margin-left: 85%;
+}
+
+.rules{
+  color: white;
+  background-color: rgb(2, 2, 26);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 50px;
+  border: 1px solid grey;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.rules:hover {
+  cursor: pointer;
+  color: rgb(2, 2, 26);
+  background-color: white;
+}
+
+
+.soweto {
+  width: 472px;
+  height: 413px;
+  border: 2px solid rgb(28, 171, 238);
+}

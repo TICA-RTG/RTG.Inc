@@ -1,0 +1,51 @@
+.mid {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  width: 800px;
+  height: 414px;
+  border: 1px solid greenyellow;
+  margin-top:  50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mid1 {
+
+}
+
+.verdict {
+  height: 120px;
+  margin-top: 160px;
+}
+
+.result {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.restart-game {
+  font-size: 14px;
+  color: rgb(2, 2, 26);
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  background-color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 55px;
+  margin-right: 55px;
+  border-radius: 2px;
+  transform: 0.15s;
+}
+
+.restart-game:hover {
+  cursor: pointer;
+  color: red;
+  background-color: white;
+}

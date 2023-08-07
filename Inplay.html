@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INPLAY</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="middle.css">
+  <link rel="stylesheet" href="rules.css">
+  <link rel="stylesheet" href="Inplay.css">
+  <script src="game.js"></script> 
+</head>
+<body>
+  <div class="top">
+    <div class="header">
+      <div class="game-title">
+        <img class="logo" src="Images/logo.svg">
+      </div>
+      <div class="score-board">
+        <p class="score">SCORE</p>
+        <p class="score-count">12</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mid">
+      <div class="mid1">
+        <div class="one-1">
+          <p class="selection">YOU PICKED</p>
+        </div>
+        <div class="one-2">
+          <img class="your-pick" src="Images/icon-paper.svg" onclick="playGame('paper');">
+        </div>
+      </div>
+      <div class="verdict">
+        <p class="result">YOU WIN</p>
+        <P class="restart-game">PLAY AGAIN</P>
+      </div>
+      <div class="mid1">
+        <div class="one-1">
+          <p class="outcome">THE HOUSE PICKED</p>
+        </div>
+        <div class="one-2">
+          <img class="computer-pick" src="Images/icon-rock.svg">
+        </div>
+      </div>
+  </div>
+
+  <div class="down">
+    <button onclick="resetGame();">reset score</button>
+    <button class="rules" onclick="ruler();">RULES</button>
+</div>
+</body>
+</html>

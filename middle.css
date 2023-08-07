@@ -1,0 +1,68 @@
+.middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 600px;
+  height: 414px;
+  border: 1px solid greenyellow;
+  margin-top:  50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mid-content {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.one {
+  width: 227px;
+}
+
+.two {
+  width: 227px;
+  
+}
+
+.one-1 {
+
+}
+
+.selection,
+.outcome {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.one-2{
+  margin-top: 70px;
+}
+
+
+
+.your-pick {
+  width: 70px;
+  height: 70px;
+  padding: 30px;
+  border: 25px solid rgb(84, 23, 226);
+  border-radius: 95px;
+  background-color: white;
+  opacity: 1;
+  transition: 0.3s;
+  margin-left: 55px;
+}
+
+.computer-pick {
+  width: 70px;
+  height: 70px;
+  padding: 30px;
+  border: 25px solid rgb(230, 57, 57);
+  border-radius: 95px;
+  background-color: white;
+  opacity: 1;
+  transition: 0.3s;
+  margin-left: 55px;
+}
+
